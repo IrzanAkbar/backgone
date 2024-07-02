@@ -1,1 +1,1 @@
-web: htmx serve --port $PORT
+web: docker-compose up -d && docker-compose exec app npm start
